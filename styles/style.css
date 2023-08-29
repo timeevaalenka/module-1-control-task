@@ -1,0 +1,169 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background: #000;
+  font-weight: 400;
+}
+
+.welcome {
+  height: 765px;
+  width: 100%;
+  background-image: url("../resourcer/hello_iam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.welcome__container {
+  margin: 0 auto;
+  width: 1155px;
+}
+
+.welcome__navigation {
+  float: right;
+  padding-top: 33px;
+}
+
+.welcome__nav_link {
+  padding-left: 43px;
+  height: 23px;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 23px;
+
+  text-decoration: none;
+  letter-spacing: -0.54px;
+  color: white;
+}
+
+.welcome__nav_link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  position: relative;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 7px;
+  padding-right: 12px;
+  display: block;
+}
+
+.welcome__box {
+  margin-top: 36px;
+  position: absolute;
+  width: 130px;
+  height: 39px;
+  flex-shrink: 0;
+  background-color: black;
+  border-radius: 100px;
+}
+
+.welcome__paragraph {
+  padding-top: 334px;
+  padding-left: 125px;
+  line-height: 26px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  color: #fff;
+}
+
+.welcome__title_job {
+  padding-top: 29px;
+  padding-left: 119px;
+  font-size: 80px;
+  line-height: 70px;
+  letter-spacing: -2.4px;
+  color: #1bff07;
+}
+
+.main_container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projects__container {
+  width: 1155px;
+  margin-left: 120px;
+  margin: 0 auto;
+}
+
+.projects__title {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.65px;
+}
+.projects__title-realhome {
+  position: absolute;
+  left: 50px;
+  bottom: 94px;
+  color: #fff;
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: -1.05px;
+}
+
+.projects__text-realhome {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.9px;
+  bottom: 50px;
+}
+
+.project__item {
+  position: relative;
+  background-image: url("../resourcer/Realhome-desing.png");
+  width: 1150px;
+  height: 550px;
+  flex-shrink: 0;
+}
+.project__item-GLASS {
+  position: relative;
+  background-image: url("../resourcer/class.png");
+  width: 1150px;
+  height: 550px;
+  flex-shrink: 0;
+}
+
+.project__item-Fesiyen {
+  position: relative;
+  background-image: url("../resourcer/Fesiyen.png");
+  width: 1150px;
+  height: 550px;
+  flex-shrink: 0;
+}
+.project__link {
+  text-decoration: none;
+}
+
+.project__btn {
+  width: 582px;
+  display: inline-block;
+  padding: 50px 118px;
+  border-radius: 10px;
+  font-size: 30px;
+  letter-spacing: -0.6px;
+  color: black;
+  background-color: #1bff07;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  line-height: 39px;
+}
